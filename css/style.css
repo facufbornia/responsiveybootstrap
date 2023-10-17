@@ -1,0 +1,35 @@
+.nav-css{
+    color: white;
+}
+
+h1, .container{
+    text-align: center;
+    
+}
+
+.carousel h5{
+    height: 0.8rem;
+}
+li, a{
+    list-style: none;
+    color: black;
+    text-align: left;
+}
+.dropdown {
+    display: flex;
+    text-align: left;
+}
+
+.dropdown-display{
+    position: absolute;
+    width: 80vh;
+    height: 36vh;
+}
+
+@media (min-width: 540px) and (max-width: 719px) {
+    .dropdown-display{
+        position: absolute;
+        width: 68vh;
+        height: 36vh;
+    }
+  }
